@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Polynomics</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+  </head>
+
+  <body
+    onresize="vid=document.getElementById('ytembed');if(vid) vid.style.height=vid.clientWidth / 16 * 9 + 'px'"
+    onload="vid=document.getElementById('ytembed');if(vid) vid.style.height=vid.clientWidth / 16 * 9 + 'px'">
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </body>
+</html>
+

@@ -1,0 +1,13 @@
+---
+layout: main
+title: FAQ
+---
+
+<div class="content page">
+  <ul>
+    {% for faq in site.data.faqs %}
+      <h2>{{ faq.question }}</h2>
+      <p>{{ faq.answer }}</p>
+    {% endfor %}
+  </ul>
+</div>
