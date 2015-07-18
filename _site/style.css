@@ -43,7 +43,13 @@
   }
 
   .description {
+    width: 94%;
+    padding: 20px 3%;
+  }
+
+  .screenshot {
     width: 100%;
+    height: auto;
   }
 
   .video {
@@ -82,7 +88,13 @@
   }
 
   .description {
-    width: 100%;
+    width: 96%;
+    padding: 20px 2%;
+  }
+
+  .screenshot {
+    width: 50%;
+    height: auto;
   }
 
   .video {
@@ -115,12 +127,19 @@
     padding: 15px;
   }
 
-  .content {
+  .content,
+  .screenshots {
     width: 1000px;
   }
 
   .description {
     width: 960px;
+    padding: 20px;
+  }
+
+  .screenshot {
+    width: 500px;
+    height: 281px;
   }
 
   .video {
@@ -134,6 +153,7 @@
 }
 
 html, body {
+  font-family: sans-serif;
   margin: 0;
   background: #222;//url("splash.png") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -143,7 +163,6 @@ html, body {
 }
 
 .description {
-  padding: 20px;
   color: #fff;
   text-align: center;
   margin: 0 auto 0px auto;
@@ -154,6 +173,16 @@ h1, h2, h3, .social {
   font-family: LiberationSerif, sans-serif;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 1em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
 }
 
 ul {
@@ -216,9 +245,9 @@ li {
 
 /* Content */
 
-.content {
+.content,
+.screenshots {
   margin: auto;
-  padding: 5px 0px;
 }
 
 .page {
@@ -273,10 +302,14 @@ li {
   padding: 15px;
 }
 
+.screenshot {
+  float: left;
+}
+
 /* Social */
 
 .social {
-  margin-top: 20px;
+  padding-top: 20px;
   clear: both;
   -webkit-transform:skewX(-7deg);
   text-align: center;
@@ -322,14 +355,14 @@ li {
 
 .email {
   padding: 20px;
-  height: 40px;
+  height: auto;
 }
 
 .footer {
   font-size: 12px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px 0 30px 0;
   color: #ffffff;
 }
 
@@ -344,7 +377,7 @@ li {
 /* Subscribe Form */
 
 form {
-  width: 445px;
+  width: 440px;
   margin: 0 auto;
   -webkit-transform:skewX(-7deg);
 }
@@ -377,12 +410,81 @@ input.button {
   font-weight: bold;
   border: 0;
   font-family: LiberationSerif, sans-serif;
-  margin-left: 5px;
 }
 
 input.button:hover {
   cursor: pointer;
   color: #cccc00;
   background: #000;
+}
+
+/* Presskit */
+
+.press-wrapper {
+  padding-top: 20px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.press-wrapper li {
+  display: list-item;
+  margin-left: 20px;
+}
+
+.press-navigation {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+}
+
+.press-navigation li {
+  list-style-type: none;
+  padding: 5px 0;
+  margin-left: 0;
+}
+
+.press-navigation a {
+  text-decoration: none;
+  color: #000;
+}
+
+.press-navigation a:hover {
+  font-weight: bold;
+}
+
+.press-content {
+  position: relative;
+  left: 240px;
+  float: left;
+  width: 720px;
+  height: 100%;
+}
+
+.press-factsheet {
+  float: left;
+  width: 240px;
+  height: 100%;
+}
+
+.press-factsheet p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.press-factsheet h5 {
+  -webkit-margin-after: 0;
+}
+
+.press-main-body {
+  float: left;
+  width: 480px;
+}
+
+.press-main-body h4 {
+  padding-bottom: 5px;
+}
+
+.press-screenshots img {
+  width: 480px;
 }
 

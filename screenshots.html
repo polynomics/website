@@ -3,12 +3,5 @@ layout: main
 title: Screenshots
 ---
 
-<div class="content">
-  <ul>
-    {% for screenshot in site.data.screenshots %}
-      <li>
-        <img src="{{ screenshot.url }}" alt="{{ screenshot.description }}" />
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include screenshots.html %}
+

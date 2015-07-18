@@ -1,4 +1,15 @@
 -
-  question: Example question?
-  answer: test test
+  question: What is Polynomics?
+  answer:
+    <p>Polynomics is an economics simulation game currently in early development. The game begins in a sparsely populated and untouched landmass where the player is tasked with founding a government and implementing policy. Each agent in the economy acts out of self interest, initially just trying to survive by gathering food and seeking shelter, but then evolving into having to make more complicated economic choices.</p>
+
+    <p>As a player you control the issuance of currency, how revenue is generated (through taxation policies and/or government owned entities) and how much is getting injected back into the economy (the cost of running departments and policies implemented by them).</p>
 -
+  question: When will the game be released?
+  answer: TBD. Based on the development schedule sometime in early 2016 is most likely.
+-
+  question: What platforms will be supported?
+  answer: Linux, Mac and Windows.
+-
+  question: Will the game be moddable?
+  answer: Yes! Part of the development has included the creation of a custom asset editor and it will be released as an open source project sometime in the near future. This will allow basic modding such as adding custom buildings, cars, resources etc. A more extensive mod kit is being worked on but will be released sometime after alpha release.

@@ -39,7 +39,7 @@ Whenever you use the Services, you agree that these Terms of Service will contro
 
 *  **D. Your Account and Virtual Goods and/or In-App Purchases.** No matter what else is said in these Terms or anywhere else within the Services, you have no right or title to the Account you create on our Service and your Account is not your property. Likewise, In-App Purchases and Virtual Goods, regardless of whether they were "earned" or purchased within the Services, are not your property. Your Account, any Virtual Goods, and any In-App Purchases are owned by POLYNOMICS and are licensed to you under the same rules as 2(a). 
 
-Further, we may delete accounts that are deemed inactive. "Inactive" will be defined by POLYNOMICS based on average usage of the Services from other users. If you would like us to delete your account, please alert us here: {{INSERT EMAIL}}
+Further, we may delete accounts that are deemed inactive. "Inactive" will be defined by POLYNOMICS based on average usage of the Services from other users. If you would like us to delete your account, please alert us here: contact@polynomicsgame.com.
 
 ### 3. USER CONTENT
 
@@ -54,7 +54,9 @@ Further, we may delete accounts that are deemed inactive. "Inactive" will be def
 
 4. **4.** All content will be free of viruses, adware, spyware, worms, or other malicious code.
 
-* **C.** You hereby grant POLYNOMICS a revocable, perpetual, transferable, fully paid-up, royalty-free, worldwide license (including the right to sublicense and assign to third party) and right to copy, reproduce, fix, adapt, modify, create derivative works from, manufacture, commercialize, publish, distribute, sell, license, sublicense, transfer, lease, transmit, publicly display, publicly perform, or provide access to electronically, broadcast, communicate to the public by telecommunication, display, perform, enter into computer memory, and use and practice, in any way, your User Content as well as all modified and derivative works thereof in connection with our provision of the Service, including marketing and promotions of the Service. You also hereby grant to POLYNOMICS the right to authorize others to exercise any of the rights granted to POLYNOMICS under these Terms of Service. You further hereby grant to POLYNOMICS the unconditional, irrevocable right to use and exploit your name, likeness and any other information or material included in any User Content and in connection with any User Content, without any obligation to you. Except as prohibited by law, you waive any rights of attribution and/or any moral rights you may have in your User Content, regardless of whether your User Content is altered or changed in any manner. POLYNOMICS does not claim any ownership rights in your User Content and nothing in these Terms of Service is intended to restrict any rights that you may have to use and exploit your User Content. You agree that you can revoke this license only by sending notification to: {{INSERT EMAIL ADDRESS OR ADDRESS}}
+* **C.** You hereby grant POLYNOMICS a revocable, perpetual, transferable, fully paid-up, royalty-free, worldwide license (including the right to sublicense and assign to third party) and right to copy, reproduce, fix, adapt, modify, create derivative works from, manufacture, commercialize, publish, distribute, sell, license, sublicense, transfer, lease, transmit, publicly display, publicly perform, or provide access to electronically, broadcast, communicate to the public by telecommunication, display, perform, enter into computer memory, and use and practice, in any way, your User Content as well as all modified and derivative works thereof in connection with our provision of the Service, including marketing and promotions of the Service. You also hereby grant to POLYNOMICS the right to authorize others to exercise any of the rights granted to POLYNOMICS under these Terms of Service. You further hereby grant to POLYNOMICS the unconditional, irrevocable right to use and exploit your name, likeness and any other information or material included in any User Content and in connection with any User Content, without any obligation to you. Except as prohibited by law, you waive any rights of attribution and/or any moral rights you may have in your User Content, regardless of whether your User Content is altered or changed in any manner. POLYNOMICS does not claim any ownership rights in your User Content and nothing in these Terms of Service is intended to restrict any rights that you may have to use and exploit your User Content. You agree that you can revoke this license only by sending notification to: contact@polynomicsgame.com.
+
+* 
 
 ### 4. FEES AND PAYMENT TERMS
 
@@ -67,6 +69,8 @@ Further, we may delete accounts that are deemed inactive. "Inactive" will be def
 ### 5. DURATION 
 
 * **A.** Unless modified or amended by POLYNOMICS, this agreement and its provisions shall remain in effect. Termination of any license granted by POLYNOMICS under this agreement does not affect any other provisions of this agreement.
+
+* 
 
 ### 6. ACCOUNT ACCESS AND PERMISSIBLE ASSIGNMENT
 
@@ -107,7 +111,7 @@ Some states or countries do not allow the exclusion of certain warranties or the
 
 ### 9. INDEMNITY
 
-* **A.** You agree to defend, indemnify and hold harmless POLYNOMICS, any third-parties under agreement with POLYNOMICS, any parent, subsidiary or affiliate of POLYNOMICS, and any employee, agent, supplier, licensee, customer, distributor, shareholder, director or officer of any of the foregoing, as well as any person using the Services and any person or entity that becomes aware of your use of the Services at any time, with respect to any and all claims, liabilities, injuries, damages, losses or expenses (including but not limited to attorney’s fees and costs) that arise under, from or in any way, directly or indirectly, relate to:
+**A.** You agree to defend, indemnify and hold harmless POLYNOMICS, any third-parties under agreement with POLYNOMICS, any parent, subsidiary or affiliate of POLYNOMICS, and any employee, agent, supplier, licensee, customer, distributor, shareholder, director or officer of any of the foregoing, as well as any person using the Services and any person or entity that becomes aware of your use of the Services at any time, with respect to any and all claims, liabilities, injuries, damages, losses or expenses (including but not limited to attorney’s fees and costs) that arise under, from or in any way, directly or indirectly, relate to:
 
 1. **1.** Your failure to comply with any provision of this agreement;
 
@@ -115,7 +119,7 @@ Some states or countries do not allow the exclusion of certain warranties or the
 
 3. **3.** Your actions to knowingly affect the Services via any bloatware, malware, computer virus, worm, Trojan horse, spyware, adware, crimeware, scareware, rootkit or any other program installed in a way that executable code of any program is scheduled to utilize or utilizes processor cycles during periods of time when such program is not directly or indirectly being used.
 
-* **B.** You acknowledge, and further agree, that POLYNOMICS has no obligation to defend, indemnify or hold harmless you in any way related to this agreement including, but not limited to, your use of the Services, use of the Services by any person, or any connection between the foregoing and any other person or entity that becomes aware of your use of the Services at any time.
+**B.** You acknowledge, and further agree, that POLYNOMICS has no obligation to defend, indemnify or hold harmless you in any way related to this agreement including, but not limited to, your use of the Services, use of the Services by any person, or any connection between the foregoing and any other person or entity that becomes aware of your use of the Services at any time.
 
 ### 10. DISPUTE RESOLUTION 
 

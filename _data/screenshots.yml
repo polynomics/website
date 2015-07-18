@@ -1,7 +1,13 @@
 -
-  url: screenshots/test.jpg
+  url: 1.png
   description: testing!
 -
-  url: screenshots/test.jpg
+  url: 2.png
+  description: testing!
+-
+  url: 3.png
+  description: testing!
+-
+  url: 4.png
   description: testing!
 
