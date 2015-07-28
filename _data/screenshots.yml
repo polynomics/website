@@ -1,13 +1,31 @@
 -
-  url: 1.png
-  description: testing!
+  url: rural-sunset.png
+  description: Rural sunset
 -
-  url: 2.png
-  description: testing!
+  url: gdp-graph.png
+  description: GDP graph
 -
-  url: 3.png
-  description: testing!
+  url: statistics.png
+  description: Statistics
 -
-  url: 4.png
-  description: testing!
+  url: departments.png
+  description: Departments
+-
+  url: ship-at-sea.png
+  description: Ship at sea
+-
+  url: data-overlay.png
+  description: Data overlay
+-
+  url: city-skyline-night.png
+  description: City skyline at night
+-
+  url: slum-zone.png
+  description: Slum zone
+-
+  url: rural-scene.png
+  description: Rural Scene
+-
+  url: dusk-street-view.png
+  description: Street at dusk
 

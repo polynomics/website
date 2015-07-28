@@ -5,10 +5,22 @@ title: Polynomics
 
 <p class="description">Polynomics is an economics simulation game currently in early development. It will be released as an early access game early 2016 on Windows, Mac and Linux.</p>
 
-<div class="screenshots">
-  {% include screenshots.html %}
+<!--div class="alert">Polynomics is now on <a href="#">Steam Greenlight</a>!</div-->
+
+<!--div class="screenshots">
+
+  {% assign groups = site.data.screenshots | sort: 'date' %}
+
+  {% for group in groups limit:1 %}
+    {% for screenshot in group.screenshots %}
+      <a href="{{ screenshot.url | asset_path }}">
+        <img class="screenshot" src="{{ screenshot.url | asset_path }}" alt="{{ screenshot.description }}" />
+      </a>
+    {% endfor %}
+  {% endfor %}
+</div-->
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/SmP6Q4yC0Sc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen id="ytembed"></iframe>
 </div>
 
-<!--div class="video">
-  <iframe src="https://www.youtube.com/embed/jQ0jKXqeSsA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen id="ytembed"></iframe>
-</div-->

@@ -42,9 +42,10 @@
     width: 90%;
   }
 
-  .description {
+  .description,
+  .alert {
     width: 94%;
-    padding: 20px 3%;
+    padding: 10px 3%;
   }
 
   .screenshot {
@@ -87,9 +88,10 @@
     width: 90%;
   }
 
-  .description {
+  .description,
+  .alert {
     width: 96%;
-    padding: 20px 2%;
+    padding: 10px 2%;
   }
 
   .screenshot {
@@ -132,9 +134,10 @@
     width: 1000px;
   }
 
-  .description {
-    width: 960px;
-    padding: 20px;
+  .description,
+  .alert {
+    width: 980px;
+    padding: 10px;
   }
 
   .screenshot {
@@ -169,6 +172,18 @@ html, body {
   background: rgba(0,0,0,0.5);
 }
 
+.alert {
+  text-align: center;
+  margin: 0 auto 0px auto;
+  background: rgba(255,0,0,0.75);
+  color: #fff;
+  font-weight: bold;
+}
+
+.alert a {
+  color: #fff;
+}
+
 h1, h2, h3, .social {
   font-family: LiberationSerif, sans-serif;
   -webkit-margin-before: 0;
@@ -177,10 +192,15 @@ h1, h2, h3, .social {
 
 h4 {
   font-size: 1em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
 }
+
 
 h5 {
   font-size: 1em;
+  font-style: italic;
+  font-weight: normal;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
 }
@@ -202,7 +222,7 @@ h1 {
   color: #000000;
   font-style: italic;
   line-height: 33px;
-  background: #CCCC00;
+  background: #FFFF00;
   -webkit-transform:skewX(-7deg);
   padding: 10px 10px;
   font-size: 50px;
@@ -250,6 +270,14 @@ li {
   margin: auto;
 }
 
+.date {
+  font-family: LiberationSerif, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+  line-height: 65px;
+}
+
 .page {
   background: #ffffff;
   padding: 15px;
@@ -283,7 +311,7 @@ li {
   font-family: LiberationSerif, sans-serif;
   height: 24px;
   width: 105px;
-  background-color: #CCCC00;
+  background-color: #FFFF00;
   color: #000000;
   font-style: italic;
   font-weight: bold;
@@ -294,7 +322,7 @@ li {
 
 .read-more:hover {
   background: #000000;
-  color: #CCCC00;
+  color: #FFFF00;
 }
 
 .post-content {
@@ -326,7 +354,7 @@ li {
 .social li {
   height: 40px;
   width: auto;
-  background-color: #CCCC00;
+  background-color: #FFFF00;
   font-style: italic;
   font-weight: bold;
   border: 0;
@@ -335,7 +363,7 @@ li {
 
 .social li:hover {
   cursor: pointer;
-  color: #cccc00;
+  color: #ffff00;
   background: #000;
 }
 
@@ -403,7 +431,7 @@ input.email:focus {
 input.button {
   width: 120px;
   height: 40px;
-  background-color: #CCCC00;
+  background-color: #FFFF00;
   color: #000000;
   font-size: 25px;
   font-style: italic;
@@ -414,11 +442,15 @@ input.button {
 
 input.button:hover {
   cursor: pointer;
-  color: #cccc00;
+  color: #ffff00;
   background: #000;
 }
 
 /* Presskit */
+
+#description {
+    margin-left: 240px;
+}
 
 .press-wrapper {
   padding-top: 20px;
@@ -461,6 +493,7 @@ input.button:hover {
 }
 
 .press-factsheet {
+  position: absolute;
   float: left;
   width: 240px;
   height: 100%;
@@ -477,7 +510,7 @@ input.button:hover {
 
 .press-main-body {
   float: left;
-  width: 480px;
+  width: 720px;
 }
 
 .press-main-body h4 {
@@ -485,6 +518,14 @@ input.button:hover {
 }
 
 .press-screenshots img {
-  width: 480px;
+  width: 360px;
+  height: 202px;
+  float: left;
+}
+
+.zip {
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
 }
 
