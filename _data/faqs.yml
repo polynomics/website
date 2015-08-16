@@ -15,4 +15,7 @@
 -
   question: Will the game be moddable?
   answer: Yes! Part of development has included the creation of a custom asset editor and it will be released as an open source project sometime in the near future. This will allow basic modding such as adding custom buildings, cars, resources etc. A more extensive mod kit is being worked on but will be released sometime after alpha release.
+-
+  question: What languages are avaliable for the game?
+  answer: For the initial release English will be the only supported language, but international support will come shortly after.
 

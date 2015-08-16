@@ -205,6 +205,11 @@ h5 {
   -webkit-margin-after: 1em;
 }
 
+.about h5 {
+  font-style: normal;
+  font-weight: bold;
+}
+
 ul {
   margin: 0;
   -wekbit-margin-before: 0;

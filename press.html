@@ -17,6 +17,7 @@ title: Polynomics Presskit
       <li><a href="#videos">Videos</a></li>
       <li><a href="#screenshots">Screenshots</a></li>
       <li><a href="#logo-icon">Logo & Icon</a></li>
+      <li><a href="#selected-articles">Selected Articles</a></li>
       <li><a href="#additional-links">Additional Links</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -51,27 +52,7 @@ title: Polynomics Presskit
       <div id="description">
         <h4>Description</h4>
 
-        <p>Polynomics is a low poly styled economics simulation game currently in early development. An early access version will be released early 2016 on Linux, PC and Mac.</p>
-
-        <p>In the game you play the role of a federal government. While drawing inspiration from traditional city building games, Polynomics is more about macroeconomic management: controlling the issuance of currency, implementing revenue policies through a mix of taxation and state owned entities, and managing government departments.</p>
-
-        <h5>Agent-based Simulation</h5>
-        <p>Each entity in the game acts out of self interest. When placed in an undeveloped game world, that involves simply trying to survive- seeking shelter and gathering resources necessary for survival. As the economy becomes more complex each agent will seek to own their own house and specialize in a profession, but is essentially doing the same thing: looking at their needs and desires and attempting to fulfill them.</p>
-
-        <h5>Freedom from Micromanagement</h5>
-        <p>While you do have the ability to micromanage things at a smaller scale, such as planning the layout and intricate details of a city, there is also a certain element of automation that will allow you to focus on the bigger picture. You can zone large areas of land and allow roads and structures to procedurally expand within based on player-imposed conditions.</p>
-
-        <h5>International Sector</h5>
-        <p>A number of other AI players are present within a given game world and can be interacted with, both at a trade and diplomatic level. As a player you can decide how much to embrace free trade with the implementation of tariffs and other regulations, and what resources and products to specialize in producing through the implementation of subsidies and other instruments.</p>
-
-        <h5>Chunk Loading System</h5>
-        <p>Map sizes in Polynomics are much larger than other games in the city building genre- they can get away with that as you are playing from the perspective of a local government. This allows for much larger populations since the processing requirements for an off-screen entity is much lower.</p>
-
-        <h5>Inequality</h5>
-        <p>The goal of Polynomics is to be a realistic economic simulation rather than a first world simulation, and that makes for more interesting gameplay anyway. As a player you will face the real world challenges that developing countries face: building infrastructure, advancing technology, investing in health and education, and improving the overall standard of living.</p>
-
-        <h5>Economic Crises</h5>
-        <p>In addition to dealing with fires, earthquakes and other natural disasters (which have interesting economic implications in themselves), you will also need to contend with economic disasters such as fluctuations in the business cycle, out of control inflation, market shortages and the long term consequences of having no environmental regulations just to name a few.</p>
+        {% markdown about.md %}
       </div>
 
       <!--div id="history">
@@ -100,7 +81,7 @@ title: Polynomics Presskit
       <div id="screenshots">
         <h4>Screenshots</h4>
 
-        <div class="zip"><a href="{% asset_path screenshots.zip %}">Download all screenshots as zip (xmb)</a></div>
+        <div class="zip"><a href="{% asset_path screenshots.zip %}">Download all screenshots as zip (9.7mb)</a></div>
 
         <div class="press-screenshots">
           {% for screenshot in site.data.screenshots %}
@@ -114,11 +95,24 @@ title: Polynomics Presskit
       <div id="logo-icon">
         <h4 style="clear: both; padding-top: 15px;">Logo & Icon</h4>
 
-        <div class="zip"><a href="{% asset_path logos.zip %}">Download all logos as zip (xmb)</a></div>
+        <div class="zip"><a href="{% asset_path logos.zip %}">Download all logos as zip (1.2mb)</a></div>
 
         <a href="{% asset_path logo-1000.png %}">{% image logo-1000.png width=100% %}</a>
         <a href="{% asset_path icon.png %}">{% image icon.png width=200px %}</a>
       </div>
+
+      <div id="selected-articles">
+        <h4>Selected Articles</h4>
+
+        <ul>
+          <li>
+            <span>"[non-player characters] seek to maximize their utility through each of their actions. The intersection of all these wants and needs with (your) government objectives can be a messy one, and Polynomics is interested in exploring the sorts of societies that can grow out of this messy confluence."</span>
+            <br>
+            <span>- <i>David Rudin, <a href="http://killscreendaily.com/articles/last-city-building-game-allows-meaningful-economic-experimentation/">Kill Screen</a></i></span>
+          </li>
+        </ul>
+      </div>
+      <br>
 
       <div id="additional-links">
         <h4>Additional Links</h4>
