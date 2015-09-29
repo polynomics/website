@@ -10,7 +10,16 @@
   <body
     onresize="vid=document.getElementById('ytembed');if(vid) vid.style.height=vid.clientWidth / 16 * 9 + 'px'"
     onload="vid=document.getElementById('ytembed');if(vid) vid.style.height=vid.clientWidth / 16 * 9 + 'px'">
-    {% include header.html %}
+
+    {% if page.cover-image %}
+      <div class="cover-image">
+        <img src="{{ page.cover-image | asset_path }}" />
+      </div>
+
+      {% include absolute_header.html %}
+    {% else %}
+      {% include header.html %}
+    {% endif %}
 
     {{ content }}
 

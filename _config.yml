@@ -1,1 +1,8 @@
 timezone: America/New_York
+
+assets:
+  prefix: "/assets"
+  sources:
+    - "_assets/images"
+    - "_assets/videos"
+
