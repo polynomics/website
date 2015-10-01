@@ -6,7 +6,7 @@ title: Blog
 <div class="content">
   <ul>
     {% for post in site.posts %}
-    <li class="preview content">
+    <li class="preview">
       <div class="top">
       <!--style="background: url('{{ post.cover-image | asset_path }}') no-repeat center center fixed;"-->
         <a href="{{ post.url }}" class="title">
@@ -21,11 +21,16 @@ title: Blog
       <div class="content">
         {{ post.excerpt }}
       </div>
-    </li>
 
-    <a href="{{ post.url }}" class="read-more">
-      Read more
-    </a>
+      <a href="{{ post.url }}" class="read-more">
+        Read more
+      </a>
+    </li>
     {% endfor %}
   </ul>
+
+  <div class="rss">
+    <a href="/feed.xml" class="rss">Subscribe to feed</a>
+  </div>
 </div>
+
