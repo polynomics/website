@@ -6,3 +6,4 @@ assets:
     - "_assets/images"
     - "_assets/videos"
 
+discourse_url: "http://forum.polynomicsgame.com/"
