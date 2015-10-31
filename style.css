@@ -39,7 +39,8 @@
     padding: 15px;
   }
 
-  .content {
+  .content,
+  #discourse-comments {
     width: 90%;
   }
 
@@ -85,7 +86,8 @@
     padding: 5px 15px;
   }
 
-  .content {
+  .content,
+  #discourse-comments {
     width: 90%;
   }
 
@@ -131,6 +133,7 @@
   }
 
   .content,
+  #discourse-comments,
   .screenshots {
     width: 1000px;
   }
@@ -654,3 +657,7 @@ input.button:hover {
   color: #fff;
 }
 
+#discourse-comments {
+  margin: 0 auto;
+  padding: 20px;
+}

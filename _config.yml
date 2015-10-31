@@ -1,9 +1,11 @@
 timezone: America/New_York
 
+url: "http://polynomicsgame.com"
+discourse_url: "http://forum.polynomicsgame.com/"
+
 assets:
   prefix: "/assets"
   sources:
     - "_assets/images"
     - "_assets/videos"
 
-discourse_url: "http://forum.polynomicsgame.com/"
