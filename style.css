@@ -159,6 +159,14 @@
   }
 }
 
+@media (min-width: 1250px) {
+  .content,
+  #discourse-comments,
+  .screenshots {
+    width: 1200px;
+  }
+}
+
 html, body {
   font-family: sans-serif;
   margin: 0;
@@ -298,6 +306,7 @@ li {
 .cover-image img {
   position: relative;
   left: -50%;
+  min-width: 100%;
 }
 
 .screenshots {
@@ -383,7 +392,7 @@ li {
 
 .post .title {
   position: relative;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   font-size: 65px;
   font-family: LiberationSerif, sans-serif;
@@ -397,7 +406,7 @@ li {
 
 .post .date {
   position: relative;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   font-family: LiberationSerif, sans-serif;
   color: #ffffff;
@@ -434,8 +443,12 @@ li {
 }
 
 .gify {
-  width: 95%;
-  padding: 2.5%;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.post img {
+  margin: 30px 0;
 }
 
 .indent-left {
